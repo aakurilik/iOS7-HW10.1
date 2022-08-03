@@ -10,5 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        changeBgColor()
+    }
+    private func changeBgColor() {
+        view.backgroundColor = .systemRed
     }
 }
